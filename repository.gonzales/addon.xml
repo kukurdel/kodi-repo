@@ -1,7 +1,7 @@
 <addon id="repository.gonzales" name="Gonzales Repo" version="1.0.0">
     <extension point="xbmc.addon.repository">
-        <info>https://yourusername.github.io/kodi-repo/repo/addons.xml</info>
-        <checksum>https://yourusername.github.io/kodi-repo/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://yourusername.github.io/kodi-repo/zips/</datadir>
+        <info>https://kukurdel.github.io/kodi-repo/repo/addons.xml</info>
+        <checksum>https://kukurdel.github.io/kodi-repo/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://kukurdel.github.io/kodi-repo/zips/</datadir>
     </extension>
 </addon>
