@@ -5,7 +5,7 @@ import zipfile
 
 ADDONS_DIR = "addons"
 ZIPS_DIR = "zips"
-REPO_DIR = "repo"
+REPO_DIR = "."
 
 os.makedirs(ZIPS_DIR, exist_ok=True)
 os.makedirs(REPO_DIR, exist_ok=True)
@@ -35,7 +35,7 @@ for addon in os.listdir(ADDONS_DIR):
                         z.write(full_path, rel_path)
 
 tree = ET.ElementTree(addons_xml)
-addons_xml_path = os.path.join(REPO_DIR, "addons.xml")
+addons_xml_path = os.path.join(".", "addons.xml")
 tree.write(addons_xml_path, encoding="utf-8", xml_declaration=True)
 
 # md5
